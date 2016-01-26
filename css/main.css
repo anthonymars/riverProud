@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,600italic,700|Open+Sans:400,600,600italic,400italic,700,700italic,800,800italic);
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+	border-top:1px solid #ccc;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* ++++++++++++++++++++Nav Stuff ++++++++++++++++++++ */
+.navbar {
+	border-bottom: 1px solid #337ab7;
+}
+.navbar-river {
+	background-color:rgba(255,255,255,.8);
+}
+
+.navbar-toggle {
+	background:url(../img/smallLogoMobile.png) no-repeat center center;	
+}
+
+.navbar-brand {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	font-size: 1.8em;
+	margin-top:-5px;
+}
+
+.navbar-nav>li>a:hover {
+	background-color: #f8f8f8;
+}
+
+.navbar-brand .logoPic img {
+	height:50px;
+	margin-top:-10px;
+}
+
+@media(max-width:767px) {
+	.navbar-brand .logoPic {
+		display:none;
+	}
+	.navbar-brand {
+		margin-top:0;
+	}
+}
+
+/*  ++++++++++++++Full Page Slider +++++++++++++++++++*/
+
+#section1,
+#section2, 
+#section3  {
+	background-size: cover;
+	background-attachment: no-repeat fixed;
+	background-position: 50% 50%;
+	border-bottom: 1px solid #f8f8f8;
+}
+
+#section1 {
+	background-image: url(../img/imgLrg/kanRiver.jpg);
+	padding: 1% 0 0 0;
+}
+
+.leftBorder {
+	border-left: 1px solid white;
+}
+.slide h1 {
+	color:white;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 5.0em;
+	font-weight:600;
+	text-shadow: 1px 1px 1px black;
+}
+
+.slide p {
+	color:white;
+	font-size:1.3em;
+	text-shadow:1px 1px 1px black;
+}
+
+h2 .arrowScroll {
+	color:white;
+	margin: 0 auto;
+}
+
+@media(max-width:767px) {
+	.arrowScroll {
+		display:none;
+	}
+
+	.slide h1 {
+		font-size: 2.0em;
+	}
+}
+
+/* +++++++++++++++++++++++++Middle Main ++++++++++++++++++++++++++++++ */
+.jumbotron {
+	background-color: #13426a;
+	padding:15px;
+}
+.jumbotron h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:2.3em;
+	font-weight: 600;
+	color:white;
+	text-shadow: 1px 1px 1px black;
+}
+
+.jumbotron p {
+	color:white;
+	font-weight:300;
+	font-size:1.3em;
+}
+
+.circleBorder {
+	border: 2px solid white;
+}
+
+@media(max-width:991px) {
+	.jumbotron {
+		text-align:center;
+	}
+
+	.jumbotron img {
+		margin: 0 auto;
+	}
+
+	.jumbotron p {
+	margin-bottom:15px;
+}
+}
+
+
+/* ++++++++++++++++++++++++++  footer   ++++++++++++++++++++++++ */
+
+.fixedBack {
+	background: url(../img/imgLrg/footerBack.jpg) no-repeat center center fixed;
+	background-size:cover;
+	min-width:100%;
+	color:#f8f8f8;
+	min-height:300px;
+}
+
+footer img {
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.bottomFooter {
+	background-color:rgba(0,0,0,.1);
+	border-top:1px solid white;
+	padding:15px;
+}
+
