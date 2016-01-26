@@ -37,7 +37,8 @@ hr {
 }
 
 .navbar-nav>li>a:hover {
-	background-color: #f8f8f8;
+	background-color: rgba(19,66,106,.8);
+	color:#f8f8f8;
 }
 
 .navbar-brand .logoPic img {
